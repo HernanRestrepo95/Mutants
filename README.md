@@ -49,7 +49,7 @@ Desarrolla el algoritmo de la manera más eficiente posible.
 ## Compilacion y despliegue
 
 - local
-  $ruta/-> mvn clean install
+$ruta/-> mvn clean install
 $ruta_jar/-> java -jar mutants-0.0.1-SNAPSHOT.jar
 
 La aplicacion apunta a una base de datos montada en la nube, sin embargo se puede configurar el properties para apuntar a una base de datos local, se adjunta dump.
