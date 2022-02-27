@@ -49,6 +49,7 @@ Desarrolla el algoritmo de la manera más eficiente posible.
 ## Compilacion y despliegue
 
 - local
+  
   $ruta/-> mvn clean install
   $ruta_jar/-> java -jar mutants-0.0.1-SNAPSHOT.jar
 
