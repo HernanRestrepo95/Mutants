@@ -57,6 +57,8 @@ Desarrolla el algoritmo de la manera más eficiente posible.
 La aplicacion apunta a una base de datos montada en la nube, sin embargo se puede configurar el properties para apuntar a una base de datos local, se adjunta dump.
 
 Se adjunta captura de la cobertura del codigo, reporte generado con Jacoco.
+![Jacoco](https://raw.githubusercontent.com/HernanRestrepo95/Mutants/main/Coverage.png)
+
 Pruebas unitarias automaticas creadas con la ayuda de JUnit y Mockito.
 
 ## Rutas y consumos
