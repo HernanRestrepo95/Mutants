@@ -51,6 +51,7 @@ Desarrolla el algoritmo de la manera más eficiente posible.
 - local
   
   $ruta/-> mvn clean install
+  
   $ruta_jar/-> java -jar mutants-0.0.1-SNAPSHOT.jar
 
 La aplicacion apunta a una base de datos montada en la nube, sin embargo se puede configurar el properties para apuntar a una base de datos local, se adjunta dump.
@@ -61,13 +62,17 @@ Pruebas unitarias automaticas creadas con la ayuda de JUnit y Mockito.
 ## Rutas y consumos
 
 - Ruta Swagger (Documentacion EndPoints)
+  
   http://ec2-34-234-75-196.compute-1.amazonaws.com:8081/swagger-ui.html#/
 
 - GET - Metodo que devuelve un Json con las estadísticas de las verificaciones de ADN:
+  
   http://ec2-34-234-75-196.compute-1.amazonaws.com:8081/stats
 
 - POST - Metodo que detecta si un humano es mutante, enviando la secuencia de ADN
+  
   http://ec2-34-234-75-196.compute-1.amazonaws.com:8081/mutant
+  
   {
   “dna”:["ATGCGA","CAGTGC","TTATGT","AGAAGG","CCCCTA","TCACTG"]
   }
